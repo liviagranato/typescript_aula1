@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Seminário Typescript</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">TypeScript</a>
+  <button class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"><a class="nav-link" href="formatacao.html">Formatação</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card my-3">
+        <div class="card-body">
+          <h5 class="card-title">Formatação de váriaveis com Typescript</h5>
+          <h6 class="card-subtitle mb-2 text-muted">O objetivo deste exercício é mostrar formas de como capturar e formatar textos do documento.</h6>
+          <hr>
+          <form autocomplete="off">
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group">
+              <label for="salario">Salário</label>
+              <input type="number" class="form-control" id="salario" placeholder="Digite seu salário">
+            </div>
+
+            <div class="form-group">
+              <label for="reajuste">Reajuste</label>
+              <input type="number" class="form-control" id="reajuste" placeholder="Digite a porcentagem">
+
+              <label for="reaj">Escolha o tipo de Reajuste</label>
+              <select id="reaj" class="form-control">
+                <option value="aumento">Aumento</option>
+                <option value="decremento">Decremento</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="moedas">Moeda</label>
+              <select id="moedas" class="form-control">
+                <option value="real">Real</option>
+                <option value="dolar">Dólar</option>
+                <option value="euro">Euro</option>
+              </select>
+            </div>
+
+            <div class="row">
+              <
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card my-3">
+        <div class="card-body">
+          <p>Seu nome é: <span class="font-weight-bold" id="nomeView">Não preenchido</span></p>
+          <p>Seu salário é: <span class="font-weight-bold" id="salarioView">Não preenchido</span></p>
+          <p>Salário após reajuste: <span class="font-weight-bold" id="reajuste_texto">Não preenchido</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script> var exports = {}; </script>
+<script src="formatacao.js"></script>
+</body>
+</html>
